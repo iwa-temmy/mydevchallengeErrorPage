@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+.head{
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    padding: 2rem;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: #333333;
+
+}
+.container{
+    display: flex;
+    align-content: center;
+    padding: 2rem 3rem;
+}
+.bg-img{
+    width: 33.7rem;
+    height: 22.96rem;
+}
+.error{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+.error-description{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+.btn{
+    margin: 2rem 0;
+}
+.btn-back{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    background: #333333;
+    color: #FFFFFF;
+    text-transform: uppercase; 
+    padding: 0.8rem;
+}
+footer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-top: 4rem;
+}
+.footer-p{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .img{
+        padding: 0.5rem;
+    }
+    .bg-img{
+        width: 20.93rem;
+        height: 15.88rem;
+    }
+    .error{
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+    .error-description{
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+    }
+    footer{
+        margin: 1rem 0;
+    }
+}
